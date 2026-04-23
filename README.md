@@ -1,6 +1,6 @@
 # AI Data Utilities
 
-A curated list of **open-source tools that bring AI to data work** — agents, chat-with-your-data interfaces, visualisation copilots, data-cleaning and -pipelining assistants, and related utilities.
+A curated list of **open-source tools for data work** — AI agents and chat-with-your-data interfaces, visualisation, cleaning and pipelines, dataframes, anomaly detection, geospatial utilities, reference datasets, and related resource lists.
 
 > _Last updated: 2026-04-23. Updated periodically as new projects emerge._
 
@@ -9,7 +9,10 @@ A curated list of **open-source tools that bring AI to data work** — agents, c
 - [AI Agents](#ai-agents)
 - [Data Visualisation](#data-visualisation)
 - [Data Cleaning](#data-cleaning)
+- [DataFrames](#dataframes)
 - [Anomaly Detection](#anomaly-detection)
+- [Geospatial](#geospatial)
+- [Reference Data](#reference-data)
 - [Resource Lists](#resource-lists)
 
 ---
@@ -68,7 +71,7 @@ Big-data serving engine for building AI-powered search, recommendation, and retr
 
 ## Data Visualisation
 
-Tools that use AI to generate or explore charts, dashboards, and data apps.
+Charts, dashboards, data apps, and exploratory visual tools — AI-powered and classic.
 
 ### [Data Formulator](https://github.com/microsoft/data-formulator)
 
@@ -83,6 +86,38 @@ Microsoft Research tool for AI-powered data visualisation — iteratively create
 ![Stars](https://img.shields.io/github/stars/erupts/erupt?style=social) ![Last commit](https://img.shields.io/github/last-commit/erupts/erupt)
 
 Low-code admin / data-management framework — generate CRUD admin panels and dashboards over your data model with minimal configuration.
+
+---
+
+### [Perspective](https://github.com/perspective-dev/perspective)
+
+![Stars](https://img.shields.io/github/stars/perspective-dev/perspective?style=social) ![Last commit](https://img.shields.io/github/last-commit/perspective-dev/perspective)
+
+Interactive analytics and visualisation component for streaming and large datasets — WebAssembly-powered pivot grids and charts that run in the browser, Jupyter, or server-side.
+
+---
+
+### [Bokeh](https://github.com/bokeh/bokeh)
+
+![Stars](https://img.shields.io/github/stars/bokeh/bokeh?style=social) ![Last commit](https://img.shields.io/github/last-commit/bokeh/bokeh)
+
+Python interactive visualisation library for modern web browsers — expressive graphics, dashboards, and data apps backed by a JavaScript rendering layer.
+
+---
+
+### [Orange](https://github.com/biolab/orange3)
+
+![Stars](https://img.shields.io/github/stars/biolab/orange3?style=social) ![Last commit](https://img.shields.io/github/last-commit/biolab/orange3)
+
+Visual programming environment for data mining, machine learning, and exploratory data analysis — drag-and-drop widgets for loading, transforming, modelling, and visualising data.
+
+---
+
+### [Constellation](https://github.com/constellation-app/constellation)
+
+![Stars](https://img.shields.io/github/stars/constellation-app/constellation?style=social) ![Last commit](https://img.shields.io/github/last-commit/constellation-app/constellation)
+
+Graph-focused data visualisation and analytic application — interactive exploration of large, complex network datasets.
 
 ---
 
@@ -114,21 +149,127 @@ Open-source universal catalog for data and AI — governance, lineage, and disco
 
 ---
 
+### [Enso](https://github.com/enso-org/enso)
+
+![Stars](https://img.shields.io/github/stars/enso-org/enso?style=social) ![Last commit](https://img.shields.io/github/last-commit/enso-org/enso)
+
+Hybrid visual + textual data-science language and notebook — build data pipelines by wiring nodes or writing code, with live data flow through each step.
+
+---
+
+## DataFrames
+
+Dataframe libraries and in-memory tabular engines.
+
+### [pandas](https://github.com/pandas-dev/pandas)
+
+![Stars](https://img.shields.io/github/stars/pandas-dev/pandas?style=social) ![Last commit](https://img.shields.io/github/last-commit/pandas-dev/pandas)
+
+The de-facto Python dataframe library — fast, flexible tabular data structures for data analysis and manipulation.
+
+---
+
+### [DataFrame](https://github.com/hosseinmoein/DataFrame)
+
+![Stars](https://img.shields.io/github/stars/hosseinmoein/DataFrame?style=social) ![Last commit](https://img.shields.io/github/last-commit/hosseinmoein/DataFrame)
+
+C++ statistical and financial dataframe library — Pandas-style heterogeneous columns with a focus on performance, with Python and Rust bindings.
+
+---
+
 ## Anomaly Detection
 
-_No entries yet — contributions welcome._
+Tools and curated resources for detecting outliers and anomalous patterns in data.
+
+### [Anomaly Detection Resources](https://github.com/yzhao062/anomaly-detection-resources)
+
+![Stars](https://img.shields.io/github/stars/yzhao062/anomaly-detection-resources?style=social) ![Last commit](https://img.shields.io/github/last-commit/yzhao062/anomaly-detection-resources)
+
+Comprehensive curated list of anomaly / outlier detection papers, books, tutorials, datasets, and tools — a canonical starting point for the field.
+
+---
+
+## Geospatial
+
+GeoJSON tooling, maps, and geospatial data utilities.
+
+### [geojson.io](https://github.com/mapbox/geojson.io)
+
+![Stars](https://img.shields.io/github/stars/mapbox/geojson.io?style=social) ![Last commit](https://img.shields.io/github/last-commit/mapbox/geojson.io)
+
+Fast, simple, open-source editor for map data — draw, edit, and share GeoJSON in the browser.
+
+---
+
+### [python-geojson](https://github.com/jazzband/geojson)
+
+![Stars](https://img.shields.io/github/stars/jazzband/geojson?style=social) ![Last commit](https://img.shields.io/github/last-commit/jazzband/geojson)
+
+Python bindings and utilities for GeoJSON — encode/decode, geometry classes, and feature manipulation.
+
+---
+
+### [Israel Municipalities Polygons](https://github.com/idoivri/israel-municipalities-polygons)
+
+![Stars](https://img.shields.io/github/stars/idoivri/israel-municipalities-polygons?style=social) ![Last commit](https://img.shields.io/github/last-commit/idoivri/israel-municipalities-polygons)
+
+GeoJSON polygon boundaries for Israeli municipalities — useful for mapping, geofencing, and regional analysis in Israel.
+
+---
+
+## Reference Data
+
+Canonical lookup datasets — codes, lists, gazetteers.
+
+### [iso3166 (PHP)](https://github.com/alcohol/iso3166)
+
+![Stars](https://img.shields.io/github/stars/alcohol/iso3166?style=social) ![Last commit](https://img.shields.io/github/last-commit/alcohol/iso3166)
+
+PHP library providing ISO 3166-1 country data — alpha-2, alpha-3, numeric codes, and names.
+
+---
+
+### [ISO-3166 Countries with Regional Codes](https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes)
+
+![Stars](https://img.shields.io/github/stars/lukes/ISO-3166-Countries-with-Regional-Codes?style=social) ![Last commit](https://img.shields.io/github/last-commit/lukes/ISO-3166-Countries-with-Regional-Codes)
+
+ISO 3166-1 country list enriched with UN M.49 regional / sub-regional / intermediate-region codes — delivered as CSV, JSON, XML, and YAML.
+
+---
+
+### [Israeli Cities and Streets List](https://github.com/GabMic/israeli-cities-and-streets-list)
+
+![Stars](https://img.shields.io/github/stars/GabMic/israeli-cities-and-streets-list?style=social) ![Last commit](https://img.shields.io/github/last-commit/GabMic/israeli-cities-and-streets-list)
+
+Reference dataset of Israeli cities and their streets — useful for address autocomplete, form validation, and local-data applications.
 
 ---
 
 ## Resource Lists
 
-Other curated lists relevant to AI + data work.
+Other curated lists relevant to data work.
 
 ### [Awesome AI Data GitHub Repos](https://github.com/youssefHosni/Awesome-AI-Data-GitHub-Repos)
 
 ![Stars](https://img.shields.io/github/stars/youssefHosni/Awesome-AI-Data-GitHub-Repos?style=social) ![Last commit](https://img.shields.io/github/last-commit/youssefHosni/Awesome-AI-Data-GitHub-Repos)
 
 A broad curated index of AI and data-science GitHub repositories covering ML, data engineering, MLOps, and tooling.
+
+---
+
+### [Awesome Data Science](https://github.com/academic/awesome-datascience)
+
+![Stars](https://img.shields.io/github/stars/academic/awesome-datascience?style=social) ![Last commit](https://img.shields.io/github/last-commit/academic/awesome-datascience)
+
+Long-running "awesome" list for data science — tutorials, books, podcasts, tools, datasets, and courses.
+
+---
+
+### [Awesome GeoJSON](https://github.com/tmcw/awesome-geojson)
+
+![Stars](https://img.shields.io/github/stars/tmcw/awesome-geojson?style=social) ![Last commit](https://img.shields.io/github/last-commit/tmcw/awesome-geojson)
+
+Curated list of GeoJSON-related tools, libraries, converters, viewers, and datasets.
 
 ---
 
