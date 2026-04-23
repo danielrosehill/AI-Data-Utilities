@@ -7,6 +7,8 @@ A curated list of **open-source tools for data work** — AI agents and chat-wit
 ## Categories
 
 - [AI Agents](#ai-agents)
+- [Agent Skills](#agent-skills)
+- [MCP Servers](#mcp-servers)
 - [Data Visualisation](#data-visualisation)
 - [Data Cleaning](#data-cleaning)
 - [DataFrames](#dataframes)
@@ -66,6 +68,62 @@ A multi-agent "virtual data science team" — specialised agents for cleaning, f
 ![Stars](https://img.shields.io/github/stars/vespa-engine/vespa?style=social) ![Last commit](https://img.shields.io/github/last-commit/vespa-engine/vespa)
 
 Big-data serving engine for building AI-powered search, recommendation, and retrieval applications — hybrid vector + structured search at scale, widely used as the retrieval backbone for AI agents.
+
+---
+
+### [AI Analyst](https://github.com/ai-analyst-lab/ai-analyst)
+
+![Stars](https://img.shields.io/github/stars/ai-analyst-lab/ai-analyst?style=social) ![Last commit](https://img.shields.io/github/last-commit/ai-analyst-lab/ai-analyst)
+
+Open-source AI data analyst — an agent that explores datasets, runs analyses, and produces narrative insights end-to-end.
+
+---
+
+### [Auto-Analyst](https://github.com/FireBird-Technologies/Auto-Analyst)
+
+![Stars](https://img.shields.io/github/stars/FireBird-Technologies/Auto-Analyst?style=social) ![Last commit](https://img.shields.io/github/last-commit/FireBird-Technologies/Auto-Analyst)
+
+Agentic AI data-analytics system — multi-agent pipeline that automates data analysis, chart generation, and report writing over user-supplied datasets.
+
+---
+
+## Agent Skills
+
+Reusable skill packs that teach AI agents to work with specific data platforms or formats.
+
+### [Markdown Viewer Skills](https://github.com/markdown-viewer/skills)
+
+![Stars](https://img.shields.io/github/stars/markdown-viewer/skills?style=social) ![Last commit](https://img.shields.io/github/last-commit/markdown-viewer/skills)
+
+Collection of agent skills focused on Markdown viewing, parsing, and document workflows.
+
+---
+
+### [PlanetScale Database Skills](https://github.com/planetscale/database-skills)
+
+![Stars](https://img.shields.io/github/stars/planetscale/database-skills?style=social) ![Last commit](https://img.shields.io/github/last-commit/planetscale/database-skills)
+
+Official PlanetScale agent skills for working with their serverless MySQL database platform — schema, branching, and query workflows.
+
+---
+
+### [Microsoft Dataverse Skills](https://github.com/microsoft/Dataverse-skills)
+
+![Stars](https://img.shields.io/github/stars/microsoft/Dataverse-skills?style=social) ![Last commit](https://img.shields.io/github/last-commit/microsoft/Dataverse-skills)
+
+Microsoft's official agent skills for Dataverse — enabling AI agents to query, manipulate, and reason over Dataverse tables and records.
+
+---
+
+## MCP Servers
+
+Model Context Protocol servers that give AI agents structured access to data capabilities.
+
+### [AntV MCP Server Chart](https://github.com/antvis/mcp-server-chart)
+
+![Stars](https://img.shields.io/github/stars/antvis/mcp-server-chart?style=social) ![Last commit](https://img.shields.io/github/last-commit/antvis/mcp-server-chart)
+
+MCP server from the AntV team that lets LLMs generate charts and visualisations on demand — exposes a rich set of chart types as agent tools.
 
 ---
 
@@ -146,6 +204,14 @@ Standard project template for reproducible data-science work — opinionated fol
 ![Stars](https://img.shields.io/github/stars/unitycatalog/unitycatalog?style=social) ![Last commit](https://img.shields.io/github/last-commit/unitycatalog/unitycatalog)
 
 Open-source universal catalog for data and AI — governance, lineage, and discovery across tables, files, functions, and ML models.
+
+---
+
+### [pyjanitor](https://github.com/pyjanitor-devs/pyjanitor)
+
+![Stars](https://img.shields.io/github/stars/pyjanitor-devs/pyjanitor?style=social) ![Last commit](https://img.shields.io/github/last-commit/pyjanitor-devs/pyjanitor)
+
+Python clean-APIs extension for pandas — chainable, expressive data-cleaning verbs inspired by R's janitor package.
 
 ---
 
