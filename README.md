@@ -127,6 +127,14 @@ MCP server from the AntV team that lets LLMs generate charts and visualisations 
 
 ---
 
+### [Invokely MCP Connector](https://github.com/estevecastells/invokely-mcp-connector)
+
+![Stars](https://img.shields.io/github/stars/estevecastells/invokely-mcp-connector?style=social) ![Last commit](https://img.shields.io/github/last-commit/estevecastells/invokely-mcp-connector)
+
+MIT-licensed local JavaScript stdio adapter for Node.js 22 or later that forwards queries to [Invokely's hosted official-statistics MCP service](https://invokely.ai/docs); the hosted service implementation is not included in this repository.
+
+---
+
 ## Data Visualisation
 
 Charts, dashboards, data apps, and exploratory visual tools — AI-powered and classic.
